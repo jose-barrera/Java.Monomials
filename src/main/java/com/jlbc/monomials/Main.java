@@ -125,5 +125,8 @@ public class Main {
         System.out.println(new Monomial(-7.5, 0));
         System.out.println(new Monomial(-7.5, 1));
         System.out.println(new Monomial(-7.5, 5));
+        System.out.println(new Monomial(91, 0));
+        System.out.println(new Monomial(91, 1));
+        System.out.println(new Monomial(91, 5));
     }
 }

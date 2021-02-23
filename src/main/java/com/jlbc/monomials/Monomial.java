@@ -155,7 +155,7 @@ public class Monomial {
         {
             result = sign + value + power;
             // "1x" is commonly written as only "x".
-            result = result.replace("1.0 x", "x");
+            result = result.replace(" 1.0 x", "x");
         }
 
         return result;
